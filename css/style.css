@@ -1,0 +1,54 @@
+html { font-size: 16px; }
+body {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: #ccc;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#_c {
+  position: relative;
+  display: inline-grid;
+  width: 30rem;
+  height: 30rem;
+  overflow: hidden;
+  background: #353b48;
+}
+
+#_s {
+  z-index: 10;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background: #44bd32;
+  top: 15rem;
+  left: 15rem;
+}
+
+#_st {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: Transparent;
+}
+
+.st {
+  z-index: 10;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background: #44bd32;
+  top: 100px; left: 100px;
+}
+
+#_f {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background: red;
+}

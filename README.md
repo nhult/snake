@@ -1,4 +1,4 @@
 # snake
 Simple DOM Snake Game
 
-Try at [https://nhult.github.io/snake/](gh-pages)
+Try at [gh-pages](https://nhult.github.io/snake/)
